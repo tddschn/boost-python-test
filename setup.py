@@ -8,7 +8,9 @@ hello_ext = Extension(
     "hello_ext",
     sources=["hello_ext.cpp"],
     # libraries=["boost_python"],
+    # cSpell:disable
     # libraries=["libboost_python39"],
+    # cSpell:enable
     libraries=["boost_python39"],
     # include_dirs=[f'{boost_dir}/include/boost'],
     # include_dirs=[f'{boost_dir}/include', f'{boost_python_dir}/lib'],
